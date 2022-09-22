@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",wxfe43393337ada7b1
+  APP_ID: "wxfe43393337ada7b1",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",81e8961e7c413d5f0e1341df4ac659c5
+  APP_SECRET: "81e8961e7c413d5f0e1341df4ac659c5",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
