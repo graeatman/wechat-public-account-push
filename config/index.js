@@ -5,9 +5,9 @@ export const config = {
     // 公众号appSecret
     appSecret: "f57dd857fcaadc13ea60c42b06122598",
     // 模板消息id
-    templateId: "MedC8qBzsTBp3mfg5sM7XEhnvHEN2TKPvqxRf3KHaT8",
+    templateId: "P1qo9nEfhTxAMILijg21_B5na_PvAQUYMWJ_ll80_iU",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-    user: [oNona50juWkSsMAczhkJ9SZ5ueWE，oNona58Dg4RCYZSjcZBTZXUr_vPI],
+    user: [oNona50juWkSsMAczhkJ9SZ5ueWE],
 
     // 信息配置
     // 所在省份
@@ -21,6 +21,8 @@ export const config = {
     ],
     // 在一起的日子，格式同上
     loveDate: "2022-06-10",
+    // 结婚纪念日
+    marryDate: "2022-06-10"
     }
 
 // {{date.DATA}}  
@@ -29,6 +31,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是我们恋爱的第{{love_day.DATA}}天
+// 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
